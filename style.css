@@ -1,0 +1,636 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+}
+
+header{
+ height: 300x;
+}
+
+.borde_superior{
+  width: 100%;
+  height: 10px;
+  background-color:#F2308B;
+}
+
+.logo{
+  background-color: #FFF9F1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logotipo{
+  width: 200px;
+}
+
+.logotipo img{
+  width: 100%;
+}
+
+.redes{
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center ;
+  gap: 20px;
+}
+
+.redes a img{
+  width: 1px;
+}
+.redes a img{
+  width: 100%;
+}
+
+.menu{
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bolder;
+}
+
+.menu a:hover{
+  color: blue;
+}
+
+.promociones{
+  background: url(imagenes/fondopiedras.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y:-150px ;
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.text{
+  width: 400px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  
+}
+
+.text h2{
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.botones{
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+
+}
+
+.btn_promocion{
+  border: 2px solid #F2308B ;
+  background-color: #F2308B ;
+  width: 200px;
+  text-align: center;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.btn_video{
+  border: 2px solid #F2308B ;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.btn_promocion:hover{
+  background-color:#af0555;
+  color: #000;
+}
+
+.btn_video:hover{
+  background-color:#af0555;
+  color: #000;
+}
+
+
+
+.productos{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text2{
+  width: 500px;
+  padding: 30px;
+  
+}
+.titulo{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.descripcion{
+  line-height: 30px;
+}
+
+.velas{
+  width: 500px;
+}
+
+.velas img{
+  width: 100%;
+}
+
+.contenedor{
+  background-color:#FFF9F1 ;
+  padding: 40px;
+}
+
+.titulo_contenedor{
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.aromatizante{
+  width: 600px;
+}
+
+.aromatizante img{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.especialidades{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.text3{
+  border: #FFF9F1;
+  width: 800px;
+  margin-top: 10px;
+  padding: 50px 20px;
+}
+
+.text3 p{
+  line-height: 22px;
+}
+
+.trabajo1{
+  font-weight: bolder;
+}
+
+.trabajo2{
+  font-weight: bolder;
+}
+
+.trabajo3{
+  font-weight: bolder;
+}
+
+.masajes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.descripcion1{
+  width: 350px;
+  padding:10px;
+  background-color: #FFE8A4;
+  border-radius: 10px;
+}
+
+.descripcion1 figure{
+  width: 200px;
+  margin: auto;
+}
+
+.descripcion1 figure img {
+  width: 100%;
+  border-radius: 100px;
+  border: 8px solid #fff;
+}
+
+.descripcion1 h2{
+  text-align: center;
+}
+
+.descripcion1 p{
+  text-align: justify;
+}
+
+.descripcion2{
+  width: 350px;
+  padding:10px;
+  background-color: #FFE8A4;
+  border-radius: 10px;
+}
+
+.descripcion2 figure{
+  width: 200px;
+  margin: auto;
+}
+
+.descripcion2 figure img {
+  width: 100%;
+  border-radius: 100px;
+  border: 8px solid #fff;
+}
+
+.descripcion2 h2{
+  text-align: center;
+}
+
+.descripcion2 p{
+  text-align: justify;
+}
+
+.descripcion3{
+  width: 350px;
+  padding:10px;
+  background-color: #FFE8A4;
+  border-radius: 10px;
+}
+
+.descripcion3 figure{
+  width: 200px;
+  margin: auto;
+}
+
+.descripcion3 figure img {
+  width: 100%;
+  border-radius: 100px;
+  border: 8px solid #fff;
+}
+
+.descripcion3 h2{
+  text-align: center;
+}
+
+.descripcion3 p{
+  text-align: justify;
+}
+
+footer{
+  padding: 30px;
+  text-align: center;
+}
+
+footer figure{
+  width: 200px;
+}
+
+footer figure img{
+  width: 100%;
+}
+.autor{
+  font-weight: bolder;
+}
+
+.franja{
+  width: 100%;
+  background-color: #F2308B;
+  height: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablet */
+@media screen and (max-width: 768px) {
+
+  .logo{
+    width: 450px;
+  }
+  .menu{
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.menu a{
+    border-bottom: 2px dotted #000;
+    color: #000;
+    display: block;
+    width: 100%;
+}
+
+.menu a:nth-child(4){
+  border-bottom:0px;
+}
+
+.redes a img{
+  width: 50%;
+}
+  
+}
+
+@media screen and (max-width: 768px) {
+ 
+
+  .productos{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .velas{
+    width: 50%;
+  }
+  
+
+  
+}
+
+@media screen and (max-width: 768px) {
+ 
+  .especialidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aromatizante{
+    width: 50%;
+  }
+
+  .titulo_contenedor{
+    padding: 20px;
+  }
+
+  .text3{
+    width: 420px;
+  }
+
+  
+}
+
+@media screen and (max-width: 768px) {
+ 
+  .masajes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .descripcion1{
+    width: 380px;
+  }
+
+  .descripcion2{
+    width: 380px;
+  }
+  .descripcion3{
+    width: 380px;
+  }
+  
+  
+  
+    
+  }
+
+  @media screen and (max-width: 768px) {
+
+    footer figure{
+      width: 15%;
+    }
+   
+  
+    }
+  
+  
+
+
+
+/* celular */
+
+@media screen and (max-width: 480px) {
+
+  .logo{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .logotipo img{
+    width: 80%;
+  }
+  
+  .redes a img{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .redes a img{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+ 
+
+  .productos{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .velas{
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+ 
+  .especialidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aromatizante{
+    width: 50%;
+  }
+
+  .titulo_contenedor{
+    padding: 20px;
+  }
+
+  .text3{
+    width: 280px;
+  }
+
+  
+}
+
+@media screen and (max-width: 480px) {
+ 
+.masajes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+  
+}
+
+@media screen and (max-width: 480px) {
+
+  footer figure{
+    width: 30%;
+  }
+ 
+
+  }
+
+  @media screen and (max-width: 384px) {
+   
+    .borde_superior{
+      width: 100%;
+      height: 10px;
+      background-color:#F2308B;
+    }
+
+    .logo{
+      width: 100%;
+    }
+
+    .menu{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    .promociones{
+      width: 100%;
+      height: 750px;
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items:center;
+    
+    }
+
+    .text h2{
+      width: 350px;
+      padding: 20px;
+      margin-left: 25px;
+    }
+
+    .text p{
+      width: 350px;
+      padding: 20px;
+      margin-left: 25px;
+    }
+    .text2{
+      width: 300px;
+      padding: 30px;
+      
+    }
+
+    .text3{
+      width: 300px;
+    }
+
+    
+.productos{
+  width:100%;
+  margin-top:0;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor{
+width: 100%;
+}
+
+.titulo_contenedor{
+  width: 300px;
+}
+
+.descripcion1{
+  width: 300px;
+}
+
+.descripcion2{
+  width: 300px;
+}
+
+.descripcion3{
+  width: 300px;
+}
+
+.autor{
+  width: 100%;
+}
+
+.franja{
+  width: 100%;
+}
+
+  
+    }
+
+
